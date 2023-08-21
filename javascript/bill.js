@@ -4,8 +4,6 @@
  var btn =    document.getElementById('apply');
  btn.disabled = true ;
 
-
-//     console.log(couponValue)
  function list(id){
          const list =  document.getElementById('list');
          
@@ -44,25 +42,16 @@
                    var  price = sum-discount
                       
                    net.innerText = price.toFixed(2);
-                     // console.log(price)
-
+                  
+                  
                   }
-              })
-       //       console.log('hi')
-             }
-              
+              })   
+             }    
        }
               
               
-       
+ document.getElementById('go-home').addEventListener('click',function(){
+  window.location.reload();
+ })
          
-         
-//       console.log(total)
-        
 
-          
-   
-
-//    if( btn.innerText = 'apply')
-       // btn.disabled = false;
-  
